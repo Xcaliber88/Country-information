@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Country information Site</title>
 </head>
 <body>
+    <h1>Let's search some country information</h1>
 
+    <input type="text" id="searchInput" placeholder="Search..."/>
+    <button type="button" id="submitQuery"> Search</button>
+    <P id="error-message"></P>
+    <div id="countries"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
