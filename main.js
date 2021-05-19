@@ -86,20 +86,7 @@ async function searchCountry() {
         }
 
 
-// function createLanguageDescription(languages){
-//             let output = " They speak " + languages[0];
-//     for (let i = 0; i < languages.length; i++) {
-//         if(i===languages.length-1){
-//             return output =output+languages[i];
-//         }
-//         if(languages.length===2 || i ===languages.length-2){
-//             output=output+ languages[i];
-//         }else {
-//             output = output + languages[i] +",";
-//         }
-//
-//     }
-// }
+
         function languageDescription(languages) {
 
 
